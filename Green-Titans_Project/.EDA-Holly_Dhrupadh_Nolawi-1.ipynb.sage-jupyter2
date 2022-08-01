@@ -44,5 +44,5 @@
 {"cell_type":"code","exec_count":82,"id":"75584e","input":"df = banknotes_dataset\nfig = px.scatter_3d(df, x='Left', y='Right', z='Diagonal', color='Counterfeit')\nfig.show()","output":{"0":{"data":{"iframe":"c65ba1ad8ccfec34a39cc557b4acdfa1e25fd09c"},"exec_count":82,"output_type":"execute_result"}},"pos":33,"scrolled":true,"type":"cell"}
 {"cell_type":"code","exec_count":88,"id":"66bd90","input":"df = banknotes_dataset\nfig = px.scatter_3d(df, x='Top', y='Bottom', z='Length', color='Counterfeit')\nfig.show()","output":{"0":{"data":{"iframe":"b3c27b3148b979c968c5abe22f1d4f30561a890e"},"exec_count":88,"output_type":"execute_result"}},"pos":36,"type":"cell"}
 {"cell_type":"code","exec_count":93,"id":"3fc698","input":"df = banknotes_dataset\nfig = px.scatter_3d(df, x='Left', y='Right', z='Length', color='Counterfeit', opacity=.7)\nfig.show()","output":{"0":{"data":{"iframe":"2a0c125ab56242d23964b10bc6a4385b9d3cbc5b"},"exec_count":93,"output_type":"execute_result"}},"pos":34,"scrolled":true,"type":"cell"}
-{"id":0,"time":1659027882697,"type":"user"}
-{"last_load":1659362443271,"type":"file"}
+{"id":0,"time":1659378264232,"type":"user"}
+{"last_load":1659378250841,"type":"file"}
