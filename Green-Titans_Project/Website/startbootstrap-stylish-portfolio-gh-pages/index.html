@@ -7,7 +7,7 @@
     <meta content="" name="description">
     <meta content="" name="author">
     <title>
-      Stylish Portfolio - Start Bootstrap Template
+     CSB Detection Model
     </title><!-- Favicon-->
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon">
     <!-- Font Awesome icons (free version)-->
@@ -58,30 +58,40 @@
     <header class="masthead d-flex align-items-center">
       <div class="container px-4 px-lg-5 text-center">
         <h1 class="mb-1">
-          Stylish Portfolio
+          CSB Detection Model
         </h1>
 
         <h3 class="mb-5">
-          <em>A Free Bootstrap Theme by Start Bootstrap</em>
+          <em>An AI model that detects counterfeit Swiss Banknotes!</em>
         </h3>
         <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
       </div>
     </header>
     <!-- About-->
-
-    <section class="content-section bg-light" id="about">
-      <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
-        <img src="giphy.gif" width="100%">
+    <style>
+        body {
+          background-image: url('giphy.gif');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+    </style>
+    
+    <body>
+          <div style="width:100%;height:0;position:relative;">
       </div>
 
       <div class="container px-4 px-lg-5 text-center">
+
         <div class="row gx-4 gx-lg-5 justify-content-center">
+
+
           <div class="col-lg-10">
             <h2>
               The Big Why
             </h2>
 
-            <p style="background-image: giphy.gifurl('giphy.gif');">
+      <p style= color:white>
               We are attempting to solve the problem of identifying counterfeit
               banknotes, the currency that we are trying to identify would be
               the swiss banknote. About 1 in 100,000 banknotes in Switzerland
@@ -106,7 +116,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </body>
     <!-- Data-->
 
     <section class="content-section bg-primary text-white text-center" id="">
@@ -123,31 +133,25 @@
         <!--plot1-->
 
         <div class="row gx-4 gx-lg-5">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <img class='center' height="170" src=
-            "https://media.discordapp.net/attachments/998976787675615383/1003729644555620462/green-titans_BatchC_-_AI_Camp_Coding_Center_-_Google_Chrome_8_1_2022_11_21_21_AM.png?"
-            width="200">
-            <br>
+            <p align="center"><iframe src="top_bottom.html" width='800px' height='400px'></iframe></p>
 
-            <h4>
-              <strong>Bottom x Top</strong>
+            <h4 align="center">
+              <strong>Top X Bottom</strong>
             </h4>
 
-            <p class="text-faded mb-0">
+            <p class="text-faded mb-0" align="center">
               The main change analyzed in the Bottom x Top plot is that bottom
               measurements for counterfeit bills tend to be much larger than
               real bills, which fall under 10 mm, while real bills hovering
               around 9.5 mm.
             </p>
-          </div>
           <!--plot2-->
 
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <img class='center' height="170" src=
-            "https://media.discordapp.net/attachments/998976787675615383/1003730750857822318/green-titans_BatchC_-_AI_Camp_Coding_Center_-_Google_Chrome_8_1_2022_11_26_54_AM.png"
-            width="200">
+          <div class="row gx-4 gx-lg-5">
+           <p align="center"><iframe src="length_diagonal.html" width='800px' height='400px'></iframe></p>
+
             <h4>
-              <strong>Diagonal x Length</strong>
+              <strong>Length x Diagonal</strong>
             </h4>
 
             <p class="text-faded mb-0">
@@ -159,13 +163,11 @@
           </div>
           <!--plot3-->
 
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class=""><i class=""></i></span> <img class='center' height=
-            "170" src=
-            "https://media.discordapp.net/attachments/776155161616711724/1004049683452285078/unknown.png"
-            width="200">
+         <div class="row gx-4 gx-lg-5">
+          
+            <p align="center"><iframe src="diagonal_top_bottom.html" width='800px' height='400px'> </iframe></p>
             <h4>
-              <strong>Diagonal x Bottom x Top</strong>
+              <strong>Bottom x Top x Diagonal</strong>
             </h4>
 
             <p class="text-faded mb-0">
@@ -180,23 +182,42 @@
           </div>
           <!--plot4-->
 
-          <div class="col-lg-3 col-md-6">
-            <span class=""><i class=""></i></span> <img class='center' height=
-            "170" src=
-            "https://media.discordapp.net/attachments/998976787675615383/1004034322677891152/unknown.png"
-            width="200">
+           <div class="row gx-4 gx-lg-5">
+          
+            <p align="center"><iframe src="diagonal_left_right.html" width='800px' height='400px'></iframe></p>
             <h4>
-              <strong>Diagonal x Left x Right</strong>
+              <strong>Left x Right x Diagonal</strong>
             </h4>
 
             <p class="text-faded mb-0">
-              This 3d graph compares the diagonal, left, and right of the
-              counterfeit and non counterfeit banknotes.
+             The main changes analyzed in the Diagonal x Left x Right plot are the differences in diagonal measurements and right measurements. The real banknotes show a smaller right size than the counterfeit bills, with barely any plots going bigger than 130 mm. On the contrary, the diagonal measurements are much larger for the real bills and a lot smaller for the counterfeit bills. 
             </p>
           </div>
+          <div class="row gx-4 gx-lg-5">
+          
+            <p align="center"><iframe src="diagonal_bottom.html" width='800px' height='400px'></iframe></p>
+            <h4>
+              <strong>Diagonal x Bottom</strong>
+            </h4>
+            <p class="text-faded mb-0">
+              In this graph we decided to show the dimensions of the bottom and the diagonal of the banknote with the yellow being the Diagonal and bottom length of the counterfeit bank notes. As you can see on the graph the counterfeit diagonal lengths are smaller than the legit banknotes. 
+
+            </p>
+            </div>
+         <div class="row gx-4 gx-lg-5">
+          
+            <p align="center"><iframe src="bottom_left_right.html" width='800px' height='400px'></iframe></p>
+            <h4>
+              <strong>Right x Left x Bottom</strong>
+            </h4>
+            <p class="text-faded mb-0">
+              In this data set we compared the lengths of the bottom, left, and right of the counterfeit and legit banknotes. As you can see from the graph the length of most of the bottom banknotes are much bigger than the legit ones. Most of the counterfeit bills have right measurements fairly larger than the real bills, which are smaller other than a few outliers.
+
+            </p>
+            </div> 
         </div>
       </div>
-    </section>
+    <section>
     <!-- Machine Learning-->
 
     <section class="callout">
@@ -204,8 +225,13 @@
         <h2 class="mx-auto mb-5">
           Banknotes Machine Learning Model <em></em>
         </h2>
-        <a class="btn btn-primary btn-xl" href=
-        "https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+        <h3>
+          So for this project, when we used our machine learning models, it was very important to us that we achieve high accuracy, and with the amount of machine learning models we were using, we wanted perfection. And perfection we got.
+
+KNN, Randomforest, SVC, Logistic Regression, and Boosting all gave us a 100% accuracy score, which we were extremely proud of. This showed our machine was extremely clean and organized, that too before hyperparameter tuning, which we were proud of.
+
+However, we quickly learnt that our data had missed out in one place. Decision tree. Decision tree had not given us a 100% accuracy, only 97.5. While this isn't a devastating loss due to it only being a difference of 2.5 points, it was a curiosity peaking concept, for me at least. Regardless, our machine learning training and testing showed great success, therefore that's a job well done.
+        </h3>
       </div>
     </section>
     <!-- Portfolio-->
@@ -221,14 +247,14 @@
             Recent Projects
           </h2>
         </div>
-
+<p align="center"><iframe src="KNNconfusion_matrix.html" width='800px' height='400px'></iframe></p>
         <div class="row gx-0">
           <div class="col-lg-6">
             <a class="portfolio-item" href="#!">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">
-                  Stationary
+                  Stationas well as the ary
                 </div>
 
                 <p class="mb-0">
@@ -291,7 +317,7 @@
               </div>
             </div>
             <img alt="..." class="img-fluid" src=
-            "assets/img/portfolio-4.jpg"></a>
+            "assets/img/portfolio-4.jpg"></a><u></u>
           </div>
         </div>
       </div>
@@ -300,26 +326,20 @@
 
     <section class="content-section bg-primary text-white">
       <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mb-4">
-          The buttons below are impossible to resist...
-        </h2>
-        <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a> <a class=
-        "btn btn-xl btn-dark" href="#!">Look at Me!</a>
-      </div>
-    </section>
+
     <!-- Page Content -->
 
     <div class="container">
       <div class="row">
-        <h1>
+        <h1 class="card-body text-center">
           Team Members
         </h1>
         <!-- Ritum Singh -->
 
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="350" src=
-            "./Team_pictures/ritum_singh.jpeg" width="500">
+            <img alt="..." class="card-img-top" height="400px" src=
+            "./Team_pictures/ritum_singh2.jpeg" width="400px">
             <div class="card-body text-center">
               <h5 class="card-title text-black mb-0">
                 Ritum Singh
@@ -335,8 +355,8 @@
 
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="350" src=
-            "./Team_pictures/Dhrupadh.jpg" width="500">
+            <img alt="..." class="card-img-top" height="400px" src=
+            "./Team_pictures/Dhrupadh2.jpg" width="700">
             <div class="card-body text-center">
               <h5 class="card-title text-black mb-0">
                 Dhrupadh Nijith
@@ -352,9 +372,9 @@
 
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="350" src=
-            "https://media.discordapp.net/attachments/776155161616711724/1004085156623175822/IMG_9587.JPG?width=500&amp;height=520"
-            width="500">
+            <img alt="..." class="card-img-top" height="400px" src=
+            "./Team_pictures/Nolawi2.jpeg"
+            width="400px">
             <div class="card-body text-center">
               <h5 class="card-title text-black mb-0">
                 Nolawi Bisrat
@@ -370,8 +390,8 @@
 
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="350" src=
-            "./Team_pictures/Matthew%20Su.jpeg" width="500">
+            <img alt="..." class="card-img-top" height="400px" src=
+            "./Team_pictures/Matthew%20Su2.jpeg" width="400px">
             <div class="card-body text-center">
               <h5 class="card-title text-black mb-0">
                 Matthew Su
@@ -385,27 +405,12 @@
         </div>
         <!-- Dhruv TMR -->
 
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" src=
-            "https://source.unsplash.com/7u5mwbu7qLg/500x350">
-            <div class="card-body text-center">
-              <h5 class="card-title text-black mb-0">
-                Dhruv TMR
-              </h5>
-
-              <div class="card-text text-black-50">
-                Web Developer
-              </div>
-            </div>
-          </div>
-        </div>
         <!-- Holly Cholewka -->
 
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="350" src=
-            "./Team_pictures/holly.jpg" width="500">
+            <img alt="..." class="card-img-top" height="400px" src=
+            "./Team_pictures/holly3.jpg" width="400px">
             <div class="card-body text-center">
               <h5 class="card-title text-black mb-0">
                 Holly Cholewka
@@ -421,11 +426,10 @@
 
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" src=
-            "https://cdn.discordapp.com/avatars/662053683789430844/d3042ec09465d71534451059878246ce.webp?size=160">
+            <img alt="..." class="card-img-top" height="400" src=       "./Team_pictures/jaden_pic2.jpeg" width = "400">
             <div class="card-body text-center">
               <h5 class="card-title text-black mb-0">
-                Jayden Yan
+                Jayden Yan 
               </h5>
 
               <div class="card-text text-black-50">
@@ -441,28 +445,11 @@
     <!-- Footer-->
 
     <footer class="footer text-center">
-      <div class="container px-4 px-lg-5">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href=
-            "#!"><i class="icon-social-facebook"></i></a>
-          </li>
-
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href=
-            "#!"><i class="icon-social-twitter"></i></a>
-          </li>
-
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href=
-            "#!"><i class="icon-social-github"></i></a>
-          </li>
-        </ul>
+     
 
         <p class="text-muted small mb-0">
           Copyright © Your Website 2022
         </p>
-      </div>
     </footer>
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top"><i class=
