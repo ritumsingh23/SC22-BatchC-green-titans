@@ -29,7 +29,7 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a href="#page-top">Start Bootstrap</a>
+          <a href="#page-top">CSB Prediction</a>
         </li>
 
         <li class="sidebar-nav-item">
@@ -41,15 +41,19 @@
         </li>
 
         <li class="sidebar-nav-item">
-          <a href="#services">Services</a>
+          <a href="#data">EDA</a>
+        </li>
+
+           <li class="sidebar-nav-item">
+          <a href="#machine_learning">Machine Learning</a>
+        </li>
+        
+        <li class="sidebar-nav-item">
+          <a href="#result">Result</a>
         </li>
 
         <li class="sidebar-nav-item">
-          <a href="#portfolio">Portfolio</a>
-        </li>
-
-        <li class="sidebar-nav-item">
-          <a href="#contact">Contact</a>
+          <a href="#team">The Team</a>
         </li>
       </ul>
     </nav>
@@ -68,6 +72,7 @@
       </div>
     </header>
     <!-- About-->
+       <section id="about">
     <style>
         body {
           background-image: url('giphy.gif');
@@ -87,39 +92,36 @@
 
 
           <div class="col-lg-10">
-            <h2>
+            <h1 style= "color:white">
               The Big Why
-            </h2>
+            </h1>
 
-      <p style= color:white>
-              We are attempting to solve the problem of identifying counterfeit
-              banknotes, the currency that we are trying to identify would be
-              the swiss banknote. About 1 in 100,000 banknotes in Switzerland
+      <p style= "color:white;font-size: 20px">
+              About 1 in 100,000 banknotes in Switzerland
               is counterfeit and about 1,000 counterfeit banknotes are
-              confiscated each year in order to make this process of catching,
-              identifying and thwarting the use of counterfeit bills. It won't
-              be possible to catch each person each time they print a
+              confiscated each year. This is why the CSB Detection team has been attempting to solve the problem of identifying counterfeit Swiss
+              Banknotes. In order to make this process of catching,
+              identifying and thwarting the use of counterfeit bills. It is evidently impractical to catch each person each time they print a
               counterfeit bill. Instead it should be caught when the bill is
               about to be used. This means that the business or person that is
               receiving this bill should be able to verify that the bill is
-              “real” or counterfeit. This means that they should be equipped
+              “real” or counterfeit. Hence, they should be equipped
               with the skills and tools to do this. By using the growing
-              popularity of the technology of AI, with our project anyone with
+              popularity of the technology of AI, with our Machine Learning project anyone with
               access to the internet will be able to verify the originality of
-              the bill being used. This can contribute a skill set the people
-              have that have no knowledge on these aspects, and are vulnerable
-              to fall victim to being scammed by these counterfeit bills, by
-              allowing them to identify and restrict further use of counterfeit
-              bills in the nation.
+              the bill being used. This can contribute a skill set to the people that
+              have no knowledge on these aspects, and are vulnerable
+              to fall victim to being scammed by these counterfeit bills. They will be enabled to identify and restrict further use of counterfeit
+              bills in the nation. On that day we can exclaim the statement <b>"Mission Complete!""</b>
             </p>
-            <a class="btn btn-dark btn-xl" href="#services">Who We Are</a>
+            <a class="btn btn-dark btn-xl" href="#data">What We Worked With</a>
           </div>
         </div>
       </div>
     </body>
+    </section>
     <!-- Data-->
-
-    <section class="content-section bg-primary text-white text-center" id="">
+    <section class="content-section bg-primary text-white text-center" id="data">
       <div class="container px-4 px-lg-5">
         <div class="content-section-heading">
           <h3 class="text-secondary mb-0">
@@ -217,238 +219,193 @@
             </div> 
         </div>
       </div>
-    <section>
+    </section>
     <!-- Machine Learning-->
-
+  <section id="machine_learning">
     <section class="callout">
       <div class="container px-4 px-lg-5 text-center">
         <h2 class="mx-auto mb-5">
           Banknotes Machine Learning Model <em></em>
         </h2>
-        <h3>
-          So for this project, when we used our machine learning models, it was very important to us that we achieve high accuracy, and with the amount of machine learning models we were using, we wanted perfection. And perfection we got.
+        <p>
+          For this project, when we used our machine learning models, it was very important to us that we achieve high accuracy, and with the amount of machine learning models we were using, we wanted perfection. And perfection we got.
 
-KNN, Randomforest, SVC, Logistic Regression, and Boosting all gave us a 100% accuracy score, which we were extremely proud of. This showed our machine was extremely clean and organized, that too before hyperparameter tuning, which we were proud of.
+Every single machine learning model that we developed showed us a 100% accuracy, which we find to be an extremely good score. This shows us that our dataset is extremely clean, well organized, and lacks any unnecessary numbers, meaning thats a job well done on our side.
+        </p>
+        <br>
+        <br>
+        <h4>
+          Logistic Regression
+        </h4>
+        <img src=https://pimages.toolbox.com/wp-content/uploads/2022/04/11040522/46-4.png width="300" height= "300"> 
+        <p>
+          Logistic Regression was developed and used to take in data and use that data to predict the output of future data. In our model, we used logistic regression to predict how many bills would be counterfeit and how many bills would be real. 
+        </p>
+        <br>
+        <br>
+        <h4>
+          Support Vector Machine (SVM/SVC)
+        </h4>
+<img src="https://www.mathworks.com/discovery/support-vector-machine/_jcr_content/mainParsys/image.adapt.full.medium.jpg/1630399092134.jpg" width="320" height="300">
+        <p>
+         We used SVM and SVC models to divide and classify the data we had. If you know about these models, you will know they are used to divide data into two different classes. Therefore we used this knowledge to use SVM/SVC to divide our data into whether it is counterfeit or not, henceforth helping us achieve our goal. 
+        </p>
+<br>
+        <br>
+        <h4>
+          K-Nearest Neighbors (KNN)
+        </h4>
+<img alt="..." class="" src=
+           https://tse2.mm.bing.net/th?id=OIP.9bExWMMJphoyzvBrcTW7JgHaF7&pid=Api&P=0>
+        <p>
+          A model that was used in our code was KNN. In 1951 the first prototype of the KNN was produced by Evelyn Fix, and Joseph Lawson Hodges Jr., two students that studied at Berkeley. The way KNN models work is that it calculates similarities using distance between two points on a graph. Some cons of KNN would it be when working with large data sets the information is not entirely accurate. Some Pros for KNN would be how the model does not learn anything in the training period. Some real life application for the KNN model would be categorizing products, an example of this would be separating vegetables with fruit .
 
-However, we quickly learnt that our data had missed out in one place. Decision tree. Decision tree had not given us a 100% accuracy, only 97.5. While this isn't a devastating loss due to it only being a difference of 2.5 points, it was a curiosity peaking concept, for me at least. Regardless, our machine learning training and testing showed great success, therefore that's a job well done.
-        </h3>
+        </p>
+        <br>
+        <br>
+        <h4>
+          Decision Tree
+        </h4>
+<img alt="..." class="" src=
+           https://cdn-icons-png.flaticon.com/512/5139/5139787.png  width="300" height="300">
+        <p>
+          One of the other models we used is a Decision Tree. Created in 1963 at the University of Wisconsin-Madison, the decision tree was a model created to function using supervised machine learning. A decision tree starts at a single node, and goes on to split out into two or more directions. Each branch is a different outcome, and it continues to split until a final outcome is achieved. One of the best examples of this model is buying something online from somewhere that gives you different suggestions based off your search history and previous shopping history.
+        </p>
+
+        <h4>
+          Random Forest
+        </h4>
+<img alt="..." class="" height = "300" src=
+            random-forest-diagram.svg   width = "300">
+        <p>In our project, we also used Random Forest. Random Forest was invented by Leo Briemann and Adele Cutler in 2001. The algorithm works by constructing multiple decision trees and outputting the mean/mode of prediction of the trees. One pro of Random Forest is that you can get a very accurate classification from using it. It’s also able to handle large datasets, and it prevents overfitting. On the other hand, Random Forests are not easily interpretable. 
+        </p>
+        <br>
+        <br>
+        <h4>
+          Boosting
+        </h4>
+        <img alt="..." class="" height = "150" src="download-removebg-preview (1).png" width = "300">
+
+        <p>
+          In the CSB Detection project, we will explore 7 different models, two of which are Gradient Boosting & XG Boosting. Gradient boosting was an idea initially brought up in the 1990s in response to Kearns and Valiant’s question, "Can a set of weak learners create a single strong learner?". 
+This effective method of machine learning was popularized with the recent invention of XG Boosting. The way that boosting works is by running multiple weak classifiers in sequential order. Once one of the classifiers computes an output the model will calculate the error and then run it through the next classifier. The model repeat this cycle until it is directed to stop by the model parameters. This will allow it to potentially come up with very refined and accurate outputs.
+ This is unlike bagging when it will run multiple different models simultaneously and have them vote on which is the correct output. Boosting has a high accuracy without the need of much hyper tuning. Regardless, it comes at the expense of having a very high power consumption rate and is computationally expensive. This causes the model to have a tendency to take time and not be the most efficient way of machine learning.
+
+
+        </p>
       </div>
+    </section>
     </section>
     <!-- Portfolio-->
-
-    <section class="content-section" id="portfolio">
-      <div class="container px-4 px-lg-5">
+    <section id = "result">
+      <div class="hero-imagen">
         <div class="content-section-heading text-center">
           <h3 class="text-secondary mb-0">
-            Portfolio
+            
           </h3>
 
-          <h2 class="mb-5">
-            Recent Projects
+          <h2 class="mb-5" style="color: white">
+            Results
           </h2>
-        </div>
-<p align="center"><iframe src="KNNconfusion_matrix.html" width='800px' height='400px'></iframe></p>
-        <div class="row gx-0">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">
-                  Stationas well as the ary
-                </div>
-
-                <p class="mb-0">
-                  A yellow pencil with envelopes on a clean, blue backdrop!
-                </p>
-              </div>
-            </div>
-            <img alt="..." class="img-fluid" src=
-            "assets/img/portfolio-1.jpg"></a>
-          </div>
-
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">
-                  Ice Cream
-                </div>
-
-                <p class="mb-0">
-                  A dark blue background with a colored pencil, a clip, and a
-                  tiny ice cream cone!
-                </p>
-              </div>
-            </div>
-            <img alt="..." class="img-fluid" src=
-            "assets/img/portfolio-2.jpg"></a>
-          </div>
-
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">
-                  Strawberries
-                </div>
-
-                <p class="mb-0">
-                  Strawberries are such a tasty snack, especially with a little
-                  sugar on top!
-                </p>
-              </div>
-            </div>
-            <img alt="..." class="img-fluid" src=
-            "assets/img/portfolio-3.jpg"></a>
-          </div>
-
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">
-                  Workspace
-                </div>
-
-                <p class="mb-0">
-                  A yellow workspace with some scissors, pencils, and other
-                  objects.
-                </p>
-              </div>
-            </div>
-            <img alt="..." class="img-fluid" src=
-            "assets/img/portfolio-4.jpg"></a><u></u>
-          </div>
-        </div>
+<p align="center" style="color: white"><iframe src="KNNconfusion_matrix.html" width='800px' height='400px'></iframe>
+  <br>The above image is a confusion matrix, a numerical matrix that helps us visualize values to tell us about our machine learning model and how well it is performing. Each box represents a value such as the top left box, which visualizes the true positive, or the top right, which visualizes true negative. Each model got a 1.00 score, memanning 100% accuracy.</p>
       </div>
-    </section>
-    <!-- Call to Action-->
-
-    <section class="content-section bg-primary text-white">
-      <div class="container px-4 px-lg-5 text-center">
+        </div>
+     </section>
 
     <!-- Page Content -->
-
-    <div class="container">
-      <div class="row">
-        <h1 class="card-body text-center">
-          Team Members
-        </h1>
-        <!-- Ritum Singh -->
-
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="400px" src=
-            "./Team_pictures/ritum_singh2.jpeg" width="400px">
-            <div class="card-body text-center">
-              <h5 class="card-title text-black mb-0">
-                Ritum Singh
-              </h5>
-
-              <div class="card-text text-black-50">
-                Web Developer
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Dhrupadh Nijith -->
-
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="400px" src=
-            "./Team_pictures/Dhrupadh2.jpg" width="700">
-            <div class="card-body text-center">
-              <h5 class="card-title text-black mb-0">
-                Dhrupadh Nijith
-              </h5>
-
-              <div class="card-text text-black-50">
-                Web Developer
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Nolawi Bisrat -->
-
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="400px" src=
-            "./Team_pictures/Nolawi2.jpeg"
-            width="400px">
-            <div class="card-body text-center">
-              <h5 class="card-title text-black mb-0">
-                Nolawi Bisrat
-              </h5>
-
-              <div class="card-text text-black-50">
-                Web Developer
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Matthew Su -->
-
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="400px" src=
-            "./Team_pictures/Matthew%20Su2.jpeg" width="400px">
-            <div class="card-body text-center">
-              <h5 class="card-title text-black mb-0">
-                Matthew Su
-              </h5>
-
-              <div class="card-text text-black-50">
-                Web Developer
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Dhruv TMR -->
-
-        <!-- Holly Cholewka -->
-
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="400px" src=
-            "./Team_pictures/holly3.jpg" width="400px">
-            <div class="card-body text-center">
-              <h5 class="card-title text-black mb-0">
-                Holly Cholewka
-              </h5>
-
-              <div class="card-text text-black-50">
-                Web Developer
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Jayden Yan -->
-
-        <div class="col-xl-3 col-md-6 mb-4">
-          <div class="card border-0 shadow">
-            <img alt="..." class="card-img-top" height="400" src=       "./Team_pictures/jaden_pic2.jpeg" width = "400">
-            <div class="card-body text-center">
-              <h5 class="card-title text-black mb-0">
-                Jayden Yan 
-              </h5>
-
-              <div class="card-text text-black-50">
-                Web Developer
-              </div>
-            </div>
-          </div>
+<section id="team" class="bg-primary text-center py-5 mb-4">
+<header class="bg-primary text-center py-5 mb-4">
+  <div class="container">
+    <h1 class="fw-light text-white">Meet the Team</h1>
+  </div>
+</header>
+<div class="container">
+  <div class="row">
+    <!-- Ritum Singh -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="./Team_pictures/ritum_singh2.jpeg "  class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Ritum Singh</h5>
+          <div class="card-text text-black-50">Web Developer</div>
         </div>
       </div>
-      <!-- /.row -->
     </div>
-    <!-- /.container -->
+    <!-- Dhrupadh Nijith -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="./Team_pictures/Dhrupadh2.jpg " class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Dhrupadh Nijith</h5>
+          <div class="card-text text-black-50 text-center">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Nolawi Bisrat -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="./Team_pictures/Nolawi2.jpeg " class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Nolawi Bisrat</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Dhruv TMR -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Dhruv TMR</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+  <!-- Matthew Su -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="./Team_pictures/Matthew Su2.jpeg " class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Matthew Su</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+  <!-- Holly Cholewka -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="./Team_pictures/holly3.jpg " class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Holly Cholewka</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Jayden Yan -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="./Team_pictures/jaden_pic2.jpeg " class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Jayden Yan</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+  
+ </section>
     <!-- Footer-->
 
     <footer class="footer text-center">
      
 
         <p class="text-muted small mb-0">
-          Copyright © Your Website 2022
+          Copyright © CSBDetector 2022
         </p>
     </footer>
     <!-- Scroll to Top Button-->
