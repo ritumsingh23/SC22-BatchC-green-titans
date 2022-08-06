@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Swiss Bank Note Validity Predictions</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='js/scripts.js')}}"></script>
+	<link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+	<h2>Length (mm)</h2>
+    <input class="area"  type="text" id="uiLen" class="floatLabel" name="Length" value = "215">
+  
+	<h2>Right (mm)</h2>
+    <input class="area"  type="text" id="uiRight" class="floatLabel" name="Right" value = "130">
+  
+	<h2>Left (mm)</h2>
+    <input class="area"  type="text" id="uiLeft" class="floatLabel" name="Left" value = "130">
+  
+	<h2>Bottom (mm)</h2>
+    <input class="area"  type="text" id="uiBottom" class="floatLabel" name="Bottom" value = "8.7">
+  
+	<h2>Top (mm)</h2>
+    <input class="area"  type="text" id="uiTop" class="floatLabel" name="Top" value = "11">
+  
+	<h2>Diagonal (mm)</h2>
+    <input class="area"  type="text" id="uiDiag" class="floatLabel" name="Diagonal" value = "140">
+  </form>
+
+	<button class="submit" onclick="onClickedPredict()" type="button">Submit</button>
+	<div id="uiPredict" class="result">	<h2></h2> </div>
+</body>
+</html>

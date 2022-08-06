@@ -11579,26 +11579,41 @@ footer.footer .social-link:hover {
 .divcolor
 {background-color:white ; } 
 
-.hero-image {
-  background-image: url("icegif-1174.gif"); /* The image used */
+.hero-image1 {
+  background-image: url("bg1.gif"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 600px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-.hero-imagen {
-  background-image: url("NOLAWI GIF.gif"); /* The image used */
+.hero-image2 {
+  background-image: url("bg2.gif"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 600px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-.hero-imagem {
-  background-image: url("square-1461794180-7wz1wby-imgur.gif"); /* The image used */
+.hero-image3 {
+  background-image: url("bg3.gif"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 600px; /* You must set a specified height */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}.hero-image4 {
+  background-image: url("bg4.gif"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero-image5 {
+  background-image: url("bg5.gif"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
